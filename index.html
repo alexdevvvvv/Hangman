@@ -1,12 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hangman Game</title>
+    <title>Jeu du Pendu</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="containair">
+        <div class="hangman-box">
+            <img src="images/hangman-0.svg" alt="hangman-img">
+            <h1>Jeu du Pendu</h1>
+        </div>
+        <div class="game-box">
+            <ul class="word-display"></ul>
+            <h4 class="hint-text">
+                Indice: <b></b>
+            </h4>
+            <h4 class="guesses-text">
+                Erreurs restantes: <b>6</b>
+            </h4>
+            <div class="keyboard"></div>
+        </div>
+    </div>
+    <script src="js/word-list.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
